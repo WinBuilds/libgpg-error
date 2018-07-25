@@ -290,7 +290,6 @@ write_errnos_in (char *line)
 static char *
 mk_include_name (const char *name, const char *repl)
 {
-  FILE *fp;
   char *incfname, *p;
   const char *s;
 

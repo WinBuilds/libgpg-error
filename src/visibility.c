@@ -22,8 +22,8 @@
 #include <stdarg.h>
 #include <stdlib.h> /* For abort().  */
 
-#define _GPGRT_INCL_BY_VISIBILITY_C 1
 #include "gpgrt-int.h"
+#include "config.h"
 
 const char *
 gpg_strerror (gpg_error_t err)

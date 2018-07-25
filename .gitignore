@@ -1,3 +1,4 @@
+*.lnk
 *.lo
 *.o
 .deps/

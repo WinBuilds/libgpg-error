@@ -25,6 +25,7 @@
 #ifdef HAVE_CONFIG_H
 #include <config.h>
 #endif
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -37,8 +38,10 @@
 #ifdef HAVE_SYS_TYPES_H
 # include <sys/types.h>
 #endif
+
 #include <io.h>
 #include <windows.h>
+#include "unistd.h"
 
 /* Enable tracing.  The value is the module name to be printed.  */
 /*#define ENABLE_TRACING "estream" */
